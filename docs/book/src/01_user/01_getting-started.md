@@ -99,9 +99,9 @@ You can now create your first workload cluster by running the following:
 
 ## Create a workload cluster
 
-There are some sample cluster templates available under the `examples/templates` folder. This section assumes you are using CAPI v1.6.0 or higher.
+There are some sample cluster templates available under the [`examples/templates`](../../../../examples/templates/) folder. This section assumes you are using CAPI v1.6.0 or higher.
 
-For this `Getting Started` section, we will be using the `docker` samples available under `examples/templates/docker/` folder. This folder contains a YAML template file called `cluster-template.yaml` which contains environment variable placeholders which can be substituted using the [envsubst](https://github.com/a8m/envsubst/releases) tool. We will use `clusterctl` to generate the manifests from these template files.
+For this [`Getting Started`](#getting-started) section, we use the `docker` samples available under [`examples/templates/docker/`](../../../../examples/templates/docker/) folder. This folder contains a YAML template file called [`cluster-template.yaml`](../../../../examples/templates/docker/cluster-template.yaml) which contains environment variable placeholders which can be substituted using the [envsubst](https://github.com/a8m/envsubst/releases) tool. We will use `clusterctl` to generate the manifests from these template files.
 Set the following environment variables:
 - NAMESPACE
 - CLUSTER_NAME
